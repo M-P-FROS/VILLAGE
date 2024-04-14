@@ -1,11 +1,12 @@
 <script setup>
 import {createApp } from 'vue'
+let logoLMV ="<img logoLMV=.\VILLAGE\src\assets\img\logoLMV.png>"
 </script>
 
 <template>
     <header>
-        <div class="logo" src="../" alt="logo représentant un village en montagne" >
-        <h5>lien LOGO??</h5>
+              <div class="logo">
+                  <h5>lien LOGO??</h5>
         </div>
         <div class="entete">
             <h1>VILATGE REALISATION DE SITES WEB <br> POUR LES COMMUNES DE PETITES STRATES</h1>
@@ -23,6 +24,7 @@ import {createApp } from 'vue'
 </template>
 
 <style scoped>
+
 header {
   width: 1200px;
   height: 107px;
@@ -32,7 +34,9 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:green;
   font-weight: bold;
-}
+  top:0px;
+  left:0px;
+  }
 .logo {
   width: 130px;
   height: 107px;
@@ -40,13 +44,6 @@ header {
   display:flex;
   object-fit: none;
 }
-.logo img {
-  position: fixed;  
-  top: 10px;
-  left: 10px;
-  width: 120px;
-  height: 70px;
- }
 
 .entete {
   float: right;
