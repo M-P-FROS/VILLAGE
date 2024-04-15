@@ -1,12 +1,11 @@
 <script setup>
-import {createApp } from 'vue'
-let logoLMV ="<img logoLMV=.\VILLAGE\src\assets\img\logoLMV.png>"
+import {createApp} from 'vue'
 </script>
 
 <template>
     <header>
               <div class="logo">
-                  <h5>lien LOGO??</h5>
+                 <a href="#"><img src="../assets/img/logoLMV.png"></a>
         </div>
         <div class="entete">
             <h1>VILATGE REALISATION DE SITES WEB <br> POUR LES COMMUNES DE PETITES STRATES</h1>
@@ -26,7 +25,7 @@ let logoLMV ="<img logoLMV=.\VILLAGE\src\assets\img\logoLMV.png>"
 <style scoped>
 
 header {
-  width: 1200px;
+  width: 742px;
   height: 107px;
   display: flex;
   flex-wrap: wrap;
@@ -34,24 +33,19 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:green;
   font-weight: bold;
-  top:0px;
-  left:0px;
-  }
+   }
 .logo {
-  width: 130px;
+  width: 80px;
   height: 107px;
-  border-style: solid;
   display:flex;
   object-fit: none;
 }
 
 .entete {
   float: right;
-  justify-content: center;
   text-align: center;
-  font-size: 0.8rem;
-  width: 930px;
-  border-style: solid;
+  font-size: 0.6rem;
+  width: 592px;
 }
 
 .entete h1 {
@@ -59,11 +53,13 @@ header {
 }
 .menu {
   font-size: 0.8rem;
-  text-align: left;
-  width: 130px;
- 
-}
+  text-align: center;
+  width: 70px;
 
+ }
+.menu ul{
+  list-style-type:none;
+}
 .menu a {
     color: green;
     font-weight: bold;
