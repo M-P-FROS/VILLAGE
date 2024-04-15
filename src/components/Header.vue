@@ -1,5 +1,5 @@
 <script setup>
-import {createApp} from 'vue'
+import {ref} from 'vue'
 </script>
 
 <template>
