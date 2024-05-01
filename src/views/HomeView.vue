@@ -1,9 +1,9 @@
 <template>
-    <Header/>
-    <Presentation/>
+    <Header />
+    <Presentation />
 </template>
 
 <script setup> 
 import Header from'../components/Header.vue';
-import Presentation from'../components/Presentation.vue';
+import Presentation from'@/components/Presentation.vue';
 </script>

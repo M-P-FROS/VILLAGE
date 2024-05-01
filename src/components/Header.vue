@@ -5,7 +5,7 @@ import {ref} from 'vue'
 <template>
     <header>
               <div class="logo">
-                 <a href="#"><img src="../assets/img/logoLMV.png"></a>
+                 <a href="#"><img src="../assets/img/logoLMV.png" alt="logo entreprise représentant des coteaux et des collines"></a>
         </div>
         <div class="entete">
             <h1>VILATGE REALISATION DE SITES WEB <br> POUR LES COMMUNES DE PETITES STRATES</h1>
@@ -14,9 +14,9 @@ import {ref} from 'vue'
             <nav>
             <ul>
               <li><a href="#Accueil">Accueil</a></li>
+              <li><a href="#Contenu">Réalisations</a></li>
               <li><a href="#Contact">Contact</a></li>
-              <li><a href="#404">404</a></li>
-            </ul>
+              </ul>
           </nav>
         </div>
     </header>
@@ -25,7 +25,8 @@ import {ref} from 'vue'
 <style scoped>
 
 header {
-  width: 742px;
+  width: 
+  834px;
   height: 107px;
   display: flex;
   flex-wrap: wrap;
@@ -39,13 +40,19 @@ header {
   height: 107px;
   display:flex;
   object-fit: none;
+  position: fixed;
+  top:0;
+  left:0;
 }
 
 .entete {
   float: right;
   text-align: center;
   font-size: 0.6rem;
-  width: 592px;
+  width: 642px;
+  position: fixed;
+  top:0;
+  left:81px;
 }
 
 .entete h1 {
@@ -53,8 +60,11 @@ header {
 }
 .menu {
   font-size: 0.8rem;
-  text-align: center;
-  width: 70px;
+  text-align:left;
+  width: 112px;
+  position: fixed;
+  top:0;
+  left:723px;
 
  }
 .menu ul{
@@ -63,5 +73,6 @@ header {
 .menu a {
     color: green;
     font-weight: bold;
+   
 }
 </style>
