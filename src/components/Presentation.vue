@@ -18,11 +18,13 @@
   flex-wrap: wrap;
   flex-direction: row;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 1550px;
+  width: 1540px;
   height:610px;
   justify-content: center;
   align-items: center;
-}
+  padding-left: 20px;
+  padding-top: 0px;
+  }
 
 .mpf h2{
   width: 1550px;
@@ -42,7 +44,9 @@
 
 .presentation a img {
   display: flex;
- align-items: center;
+  align-content: center;
+    align-items: center;
+
 }
 </style>
 
