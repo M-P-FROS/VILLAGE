@@ -19,7 +19,7 @@
   flex-direction: row;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 1540px;
-  height:610px;
+  height:780px;
   justify-content: center;
   align-items: center;
   padding-left: 20px;

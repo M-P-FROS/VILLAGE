@@ -27,13 +27,13 @@ color: green;
 text-align: center;
 }
 .cvmpfpdf {
-height:100px;
+height:200px;
 width:750px;
 
 }
 
 .socketpdf {
-height:100px;
+height:200px;
 width:750px;
 }
 
