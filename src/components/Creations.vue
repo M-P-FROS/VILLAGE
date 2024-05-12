@@ -7,12 +7,12 @@
           <a href="#"><img src="../assets/img/photompf.jpg" alt="photo de Marie pierre Frossard, femme senior"></a>
           </figure>
           <div class="bouton">
-  <h1>En savoir plus!</h1>
+  <h2>En savoir plus!</h2>
   <br>
      <button class="bout" @click="this.exists = !this.exists">{{btnText}}</button>
    <br>
    <br>
-  <p v-if="exists">Ce CV a été réalisé en janvier 2024 en utilisant les langages HTML et CSS.
+  <p v-if="exists">Le CV a été réalisé en janvier 2024 en utilisant les langages HTML et CSS.
   <br>
   <br>  
   <a href="https://github.com/M-P-FROS/CVMPF.git" target="_blank">Lien GITHUB</a>
@@ -26,7 +26,7 @@
             <a href="#"><img src="../assets/img/socket.png" alt="photo du logo de l'entreprise socket : une chaussette sur fond blanc"></a> 
         </figure>
                 <div class="bouton">
-            <h1>Définition de votre besoins</h1>
+            <h2>Définition de votre besoin</h2>
            <br>
             <button class="bout" @click="this.exists = !this.exists">{{btnText}}</button>
             <br>
@@ -65,6 +65,7 @@ a{
   color:bisque;
 }
 
+
 #photompf{
     cursor:zoom-in;
 }
@@ -73,8 +74,22 @@ height:450px;
 width:500px;
 border:dashed;
 }
-.cvmpf.bouton {
-  padding-left: 0px;
+
+.cvmpf:hover{
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px rgba(7, 202, 27, 0.752);
+  text-decoration: underline;
+}
+
+.socket:hover{
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px rgba(7, 202, 27, 0.752);
+  text-decoration: underline;
+}
+.client:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px rgba(7, 202, 27, 0.752);
+  text-decoration: underline;
 }
 
 .socket {
@@ -82,6 +97,7 @@ height:450px;
 width:500px;
 border: dashed;
 }
+
 
 .client {
 height:450px;

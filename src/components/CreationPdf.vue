@@ -1,13 +1,13 @@
 <template>
     <section>
         <div class="cvmpfpdf">
-        <h2> Accédez au CV</h2>
-        <button @click="downloadPdf('/public/CVMPF.pdf')">Charger le document pdf</button>
+        <h2> Accédez au CV au format pdf</h2>
+        <button @click="downloadPdf('/public/CVMPF.pdf')">Charger le document</button>
         </div>
 
     <div class="socketpdf">
         <h2>Un cahier des charges co-construit</h2>
-        <button @click="downloadPdf('/public/CDCSOCKET.pdf')">Charger le document pdf</button>
+        <button @click="downloadPdf('/public/CDCSOCKET.pdf')">Charger le document</button>
     </div>
 
     

@@ -39,7 +39,7 @@
     </p>
     <h2>Laissez moi un message</h2>
 <p>  <label for="message"></label>
-    <textarea id="message" name="message" rows="10" cols="100">message/.....</textarea>
+    <textarea class="commentaire" id="message" name="message" rows="10" cols="100">message/.....</textarea>
 </p>
 
     <p>
@@ -67,6 +67,13 @@ font-size:larger;
 width:1550px;
 }
 
+.commentaire{
+  font-size:30px;
+  width:750px;
+  color:green;
+  border:solid;
+  border-color: green;;
+}
 
 </style>
 
@@ -105,6 +112,14 @@ export default {
       {
         this.errors.push("Le prénom ne peut dépasser 50 caractères <= 50 !");
       }
+
+      // Check if the firstname is not empty and length <= 50
+      if (!this.message || this.message.length > 500)
+            {
+              this.errors.push("Le message ne peut dépasser 500 caractères <= 500 !");
+            }
+
+
 
       // Check if the email is not empty and match the email pattern
       var re = /(^$|^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$)/;
