@@ -13,6 +13,7 @@
               <div>
               <router-view></router-view>
               </div>
+              <div>
                 <nav>
                 <ul>
                   <li><router-link to="/Presentation">Présentation</router-link></li>
@@ -20,6 +21,7 @@
                   <li><router-link to="/Formulaire">Formulaire</router-link></li>
                   </ul>
               </nav>
+              </div>
               </div>
     </header>
    </div>

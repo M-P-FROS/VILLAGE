@@ -13,8 +13,7 @@
          <br>
       <ul>
           <li>Coût de la création d'un site : environ 3 000€ TTC</li>
-          <br>
-         <li>Coût de la maintenance annuelle : environ 400€ TTC</li>
+          <li>Coût de la maintenance annuelle : environ 400€ TTC</li>
       </ul>
      
    </div>
