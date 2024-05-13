@@ -14,7 +14,29 @@ const router = createRouter({
       name: 'NotFound',
       component: () => import('../components/PageNotFound.vue')
     },
+
+    {
+      path: '/components/Presentation.vue',
+      name: 'Presentation',
+      component: () => import('../components/Presentation.vue')
+    },
+
+    {
+      path: '/components/Creations.vue',
+      name: 'Creations',
+      component: () => import('../components/Creations.vue')
+    },
+
+    {
+      path: '/components/Formulaire.vue',
+      name: 'Formulaire',
+      component: () => import('../components/Formulaire.vue')
+    },
   ]
 })
+
+                  
+
+
 
 export default router

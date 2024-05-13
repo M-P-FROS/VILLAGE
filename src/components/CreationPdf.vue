@@ -1,16 +1,15 @@
 <template>
     <section>
         <div class="cvmpfpdf">
-        <h2> Accédez au CV au format pdf</h2>
-        <button @click="downloadPdf('/public/CVMPF.pdf')">Charger le document</button>
+          <h2> Accédez au CV au format pdf</h2>
+          <button @click="downloadPdf('/public/CVMPF.pdf')">Charger le document</button>
         </div>
 
-    <div class="socketpdf">
-        <h2>Un cahier des charges co-construit</h2>
-        <button @click="downloadPdf('/public/CDCSOCKET.pdf')">Charger le document</button>
-    </div>
+      <div class="socketpdf">
+          <h2>Un cahier des charges co-construit</h2>
+          <button @click="downloadPdf('/public/CDCSOCKET.pdf')">Charger le document</button>
+      </div>
 
-    
     </section>        
 </template>
 
@@ -22,22 +21,19 @@ flex-wrap: wrap;
 flex-direction: row;
 align-content:center;
 justify-content: space-evenly;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: green;
 text-align: center;
+
 }
 .cvmpfpdf {
 height:200px;
 width:750px;
-
 }
 
 .socketpdf {
 height:200px;
 width:750px;
 }
-
-
 </style>
 
 <script>

@@ -6,7 +6,7 @@
       method="post">
 
       <h2> Formulaire de contact à renseigner</h2>
-    <p v-if="errors.length">
+      <p v-if="errors.length">
       <p>Merci de corriger</p>
       <ul>
         <li v-for="error in errors" :key="error">{{ error }}</li>
@@ -14,36 +14,37 @@
     </p>
 
     <p>
-      <label for="surname">Nom: </label>
+      <label id="surname">Nom: </label>
       <input name="surname" type="text" v-model="surname">
     </p>
 
     <p>
-      <label for="firstname">Prénom: </label>
+      <label id="firstname">Prénom: </label>
       <input name="firstname" type="text" v-model="firstname">
     </p>
 
     <p>
-      <label for="collectivité">Collectivité: </label>
-      <input name="collectivité" type="text" v-model="collectivité" rows="10" cols="66">
-    </p>
-
-    <p>
-      <label for="qualité">Qualité: </label>
+      <label id="collectivité">Collectivité: </label>
       <input name="collectivité" type="text" v-model="collectivité">
     </p>
 
     <p>
-      <label for="email">Mail: </label>
-      <input name="email" type="email" v-model="email">
+      <label id="qualité">Qualité: </label>
+      <input name="qualité" type="text" v-model="collectivité">
     </p>
-    <h2>Laissez moi un message</h2>
-<p>  <label for="message"></label>
-    <textarea class="commentaire" id="message" name="message" rows="10" cols="100">message/.....</textarea>
-</p>
 
     <p>
-      <input type="submit" value="Submit">
+      <label id="email">Mail: </label>
+      <input name="email" type="email" v-model="email">
+    </p>
+
+    <h2>Laissez moi un message</h2>
+    <p>  <label id="message"></label>
+        <textarea class="commentaire" name="message">message/.....</textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="envoyer">
     </p> 
  
  </form>
@@ -51,30 +52,30 @@
 </template>
 
 <style>
-
 .formulaire{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-align-content:center;
-align-items:flex-start;
-justify-content: space-evenly;
-color: green;
-padding-left:20px;
-text-align: left;
-font-weight:bold;
-font-size:larger;
-width:1550px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content:center;
+  align-items:flex-start;
+  justify-content: space-evenly;
+  color: green;
+  padding-left:20px;
+  text-align: left;
+  font-weight:bold;
+  font-size:larger;
+  width:1550px;
 }
+
 
 .commentaire{
   font-size:30px;
   width:750px;
+  height:200px;
   color:green;
   border:solid;
   border-color: green;;
 }
-
 </style>
 
 

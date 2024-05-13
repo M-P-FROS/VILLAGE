@@ -1,5 +1,8 @@
 # VILLAGE
 
+PORTFOLIO FORMATION WEBDEVELOPPEUR JUNIOR
+MAI 2024
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
@@ -26,4 +29,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### install Vue Router from the npm registry:
+
+```sh
+npm install vue-router@4
 ```

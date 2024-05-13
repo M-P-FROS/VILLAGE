@@ -2,17 +2,24 @@
 <template>
        <footer>
        <h2> Ce site a été réalisé en mai 2024 en utilisant les langages HTML, CSS, Javascript ainsi que l'outil VScode implémenté de Vue.JS.</h2>
-          <div class="facebook">
-                  <a href="#"><img src="../assets/img/facebook.png" alt="logo facebook"></a>
-                  <a class="lien" href="https://m.facebook.com/profile.php?id=100003944051525&name=xhp_nt__fb__action__open_user" target="_blank">Lien facebook </a>
-          </div>
-          <div class="github">
-                  <a href="#"><img src="../assets/img/github.png" alt="github"></a>
-                  <a class="lien" href="https://github.com/M-P-FROS/CVMPF.git" target="_blank">Lien GITHUB</a>
+      
+       <div class="facebook">
+              <a href="#"><img src="../assets/img/facebook.png" alt="logo facebook"></a>
+              <a class="lien" href="https://www.facebook.com/mariepierre.frossard" target="_blank">Lien facebook </a>
           </div>
 
-          <h3> Marie Pierre FROSSARD, </h3>
-          <mail class="mail"> mp-frossard@gmail.com </mail>
+          <div class="github">
+              <a href="#"><img src="../assets/img/github.png" alt="github"></a>
+              <a class="lien" href="https://github.com/M-P-FROS" target="_blank">Lien GITHUB</a>
+          </div>
+
+          <h3> MP FROSSARD </h3>
+          <h3>54 Rte des Faget 64290 ESTIALESCQ</h3>
+
+          <div class="mail">
+            <a href="mailto:mp.frossard@gmail.com">mp.frossard@gmail.com</a>
+          </div>
+
         </footer>
  </template>
  
@@ -23,17 +30,19 @@ footer{
   flex-wrap: wrap;
   flex-direction: row;
   position:fixed;
-  bottom:5px;
+  bottom:10px;
   overflow: hidden;
   width:1550px;
   height:200px;
   background-color:green;
   color: bisque;
-  }
+  padding-bottom: 0px;
+ 
+    }
 
 h2 {
   padding-left:20px;
-  font-size:30px;
+  font-size:25px;
   text-align: center;
   width:1550px;
   height:40px; 
@@ -60,7 +69,6 @@ h2 {
   color:bisque;
  }
 
-
  .github {
   display: flex;
   flex-wrap: wrap;
@@ -76,13 +84,14 @@ h2 {
  }
  
  h3{
-  padding-left:135px;
+  padding-left:100px;
+  font-size: 20px;
  }
-.mail{
+
+.mail a{
   font-weight:bold;
   font-size:20px;
-  padding-left:480px;
-
-
+  padding-left:300px;
+  color:bisque
  }
  </style>
